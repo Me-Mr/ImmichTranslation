@@ -9,11 +9,16 @@
 </p>
 
 <p align="center">
+<<<<<<< HEAD
 <img src="../design/immich-logo-stacked-light.svg" width="300" title="Login With Custom URL">
+=======
+<img src="design/immich-logo-stacked-light.svg" width="300" title="Login With Custom URL">
+>>>>>>> 1167f0f2b7a9481104b7fa63cae34870e83ec44a
 </p>
 <h3 align="center">حل إدارة الصور والفيديو عالي الأداء مستضاف ذاتيًا</h3>
 <br/>
 <a href="https://immich.app">
+<<<<<<< HEAD
 <img src="../design/immich-screenshots.png" title="Main Screenshot">
 </a>
 <br/>
@@ -30,6 +35,25 @@
   <a href="README_zh_CN.md">中文</a>
   <a href="README_pt_BR.md">Português Brasileiro</a>
   <a href="README_ar_JO.md">العربية</a>
+=======
+<img src="design/immich-screenshots.png" title="Main Screenshot">
+</a>
+<br/>
+<p align="center">
+  <a href="readme_i18n/README_ca_ES.md">Català</a>
+  <a href="readme_i18n/README_es_ES.md">Español</a>
+  <a href="readme_i18n/README_fr_FR.md">Français</a>
+  <a href="readme_i18n/README_it_IT.md">Italiano</a>
+  <a href="readme_i18n/README_ja_JP.md">日本語</a>
+  <a href="readme_i18n/README_ko_KR.md">한국어</a>
+  <a href="readme_i18n/README_de_DE.md">Deutsch</a>
+  <a href="readme_i18n/README_nl_NL.md">Nederlands</a>
+  <a href="readme_i18n/README_tr_TR.md">Türkçe</a>
+  <a href="readme_i18n/README_zh_CN.md">中文</a>
+  <a href="readme_i18n/README_ru_RU.md">Русский</a>
+  <a href="readme_i18n/README_pt_BR.md">Português Brasileiro</a>
+  <a href="readme_i18n/README_ar_JO.md">العربية</a>
+>>>>>>> 1167f0f2b7a9481104b7fa63cae34870e83ec44a
 </p>
 
 ## تنصل
@@ -61,9 +85,16 @@ https://immich.app/
 https://demo.immich.app
 
 بالنسبة لتطبيق الهاتف المحمول، يمكنك استخدام 
+<<<<<<< HEAD
 `https://demo.immich.app/api` لـ `عنوان URL لنقطة نهاية الخادم`
 
 ```bash title="أوراق اعتماد"
+=======
+`https://demo.immich.app/api` 
+for the `نقطة نهاية الخادم`
+
+```bash title="Demo Credential"
+>>>>>>> 1167f0f2b7a9481104b7fa63cae34870e83ec44a
 تفاصيل تسجيل  الدخول
 email: demo@immich.app
 password: demo
