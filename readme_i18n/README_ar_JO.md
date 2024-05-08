@@ -1,20 +1,20 @@
-<p align="center">
-  <br/>
-  <a href="https://opensource.org/license/agpl-v3"><img src="https://img.shields.io/badge/License-AGPL_v3-blue.svg?color=3F51B5&style=for-the-badge&label=License&logoColor=000000&labelColor=ececec" alt="Licencia: MIT"></a>
+<p align="center"> 
+  <br/>  
+  <a href="https://opensource.org/license/agpl-v3"><img src="https://img.shields.io/badge/License-AGPL_v3-blue.svg?color=3F51B5&style=for-the-badge&label=License&logoColor=000000&labelColor=ececec" alt="License: AGPLv3"></a>
   <a href="https://discord.gg/D8JsnBEuKb">
-    <img src="https://img.shields.io/discord/979116623879368755.svg?label=Discord&logo=Discord&style=for-the-badge&logoColor=000000&labelColor=ececec" atl="Discord"/>
+    <img src="https://img.shields.io/discord/979116623879368755.svg?label=Discord&logo=Discord&style=for-the-badge&logoColor=000000&labelColor=ececec" alt="Discord"/>
   </a>
-  <br/>
-  <br/>
+  <br/>  
+  <br/>   
 </p>
 
 <p align="center">
-<img src="../design/immich-logo-stacked-light.svg" width="300" title="Iniciar sesión con URL personalizada">
+<img src="../design/immich-logo-stacked-light.svg" width="300" title="Login With Custom URL">
 </p>
-<h3 align="center">Immich: Una solución Self-Hosted de copia de seguridad de fotos y videos de alto rendimiento</h3>
+<h3 align="center">حل إدارة الصور والفيديو عالي الأداء مستضاف ذاتيًا</h3>
 <br/>
 <a href="https://immich.app">
-<img src="../design/immich-screenshots.png" title="Captura de pantalla principal">
+<img src="../design/immich-screenshots.png" title="Main Screenshot">
 </a>
 <br/>
 <p align="center">
@@ -32,68 +32,96 @@
   <a href="README_ar_JO.md">العربية</a>
 </p>
 
-## Descargo de responsabilidad
+## تنصل
 
-- ⚠️ El proyecto está en **desarrollo muy activo**.
-- ⚠️ Es probable que haya errores y cambios disruptivos.
-- ⚠️ **¡No utilices la aplicación como única forma de almacenar tus fotos y videos!**
+- ⚠️ هذا التطبيق قيد التطوير النشط للغاية
+- ⚠️ توقع الأخطاء والتغييرات العاجلة
+- ⚠️ **لا تستخدم التطبيق باعتباره الطريقة الوحيدة لتخزين الصور ومقاطع الفيديو الخاصة بك**
+- ⚠️ اتبع دائمًا خطة النسخ الاحتياطي [١-٢-٣](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/) لصورك ومقاطع الفيديو الثمينة الخاصة بك
 
-## Contenido
 
-- [Documentación oficial](https://immich.app/docs)
-- [Hoja de ruta](https://github.com/orgs/immich-app/projects/1)
-- [Demostración](#demo)
-- [Funciones](#features)
-- [Introducción](https://immich.app/docs/overview/introduction)
-- [Instalación](https://immich.app/docs/install/requirements)
-- [Directrices para contribuir](https://immich.app/docs/overview/support-the-project)
+## محتوى
 
-## Documentación
+- [الوثائق الرسمية](https://immich.app/docs)
+- [خريطة الطريق](https://github.com/orgs/immich-app/projects/1)
+- [تجريبي](#demo)
+- [سمات](#features)
+- [مقدمة](https://immich.app/docs/overview/introduction)
+- [تعليمات التحميل](https://immich.app/docs/install/requirements)
+- [قواعد المساهمة](https://immich.app/docs/overview/support-the-project)
 
-Puedes encontrar la documentación principal, incluidas las guías de instalación, en <https://immich.app/>.
+## توثيق
 
-## Demostración
+يمكنك العثور على الوثائق الرئيسية، بما في ذلك أدلة التثبيت، هنا 
+https://immich.app/
 
-Puedes acceder a la demostración web en <https://demo.immich.app>
+## تجريبي
 
-Para la aplicación móvil, puedes usar `https://demo.immich.app/api` como `URL de la terminal del servidor`.
+يمكنك الوصول إلى العرض التوضيحي على الويب على
+https://demo.immich.app
 
-```bash title="Credenciales de la demostración"
-Las credenciales son
-correo electrónico: demo@immich.app
-contraseña: demo
+بالنسبة لتطبيق الهاتف المحمول، يمكنك استخدام 
+`https://demo.immich.app/api` لـ `عنوان URL لنقطة نهاية الخادم`
+
+```bash title="أوراق اعتماد"
+تفاصيل تسجيل  الدخول
+email: demo@immich.app
+password: demo
 ```
 
-```bash
-Especificaciones: VM de nivel gratuito de Oracle - Ámsterdam - CPU ARM64 de cuatro núcleos a 2.4 GHz, 24 GB de RAM
+```
+Spec: Free-tier Oracle VM - Amsterdam - 2.4Ghz quad-core ARM64 CPU, 24GB RAM
 ```
 
-## Funcionalidades
+## نشاط المساهمة
+![Activities](https://repobeats.axiom.co/api/embed/9e86d9dc3ddd137161f2f6d2e758d7863b1789cb.svg "Repobeats analytics image")
 
-| Funcionalidades                                       | Móvil | Web |
-| ----------------------------------------------------- | ------ | --- |
-| Cargar y ver videos y fotos                          | Sí     | Sí  |
-| Copia de seguridad automática al abrir la aplicación | Sí     | N/D |
-| Álbum(es) selectivo(s) para copia de seguridad       | Sí     | N/D |
-| Descargar fotos y videos al dispositivo local        | Sí     | Sí  |
-| Soporte multiusuario                                 | Sí     | Sí  |
-| Álbum y álbumes compartidos                          | Sí     | Sí  |
-| Barra de desplazamiento con función de búsqueda      | Sí     | Sí  |
-| Soporte para formatos RAW                            | Sí     | Sí  |
-| Visualización de metadatos (EXIF, map)              | Sí     | Sí  |
-| Búsqueda por metadatos, objetos, rostros y CLIP      | Sí     | Sí  |
-| Funciones administrativas (gestión de usuarios)      | No     | Sí  |
-| Copia de seguridad en segundo plano                  | Sí     | N/D |
-| Desplazamiento virtual                               | Sí     | Sí  |
-| Soporte de OAuth                                     | Sí     | Sí  |
-| Claves de API                                        | N/D    | Sí  |
-| Copia de seguridad y reproducción de LivePhoto       | iOS    | Sí  |
-| Estructura de almacenamiento definida por el usuario | Sí     | Sí  |
-| Compartir públicamente                               | No     | Sí  |
-| Archivar y marcar como favorito                      | Sí     | Sí  |
-| Mapa global                                          | No     | Sí  |
-| Compartir con colaboradores                          | Sí     | Sí  |
-| Reconocimiento facial y agrupación                   | Sí     | Sí  |
-| Recuerdos (hace x años)                              | Sí     | Sí  |
-| Soporte sin conexión                                 | Sí     | No  |
-| Galería de solo lectura                              | Sí     | Sí  |
+## سمات
+
+
+| Features                                     | Mobile | Web |
+| :--------------------------------------------- | -------- | ----- |
+| Upload and view videos and photos            | Yes    | Yes |
+| Auto backup when the app is opened           | Yes    | N/A |
+| Prevent duplication of assets                | Yes    | Yes |
+| Selective album(s) for backup                | Yes    | N/A |
+| Download photos and videos to local device   | Yes    | Yes |
+| Multi-user support                           | Yes    | Yes |
+| Album and Shared albums                      | Yes    | Yes |
+| Scrubbable/draggable scrollbar               | Yes    | Yes |
+| Support raw formats                          | Yes    | Yes |
+| Metadata view (EXIF, map)                    | Yes    | Yes |
+| Search by metadata, objects, faces, and CLIP | Yes    | Yes |
+| Administrative functions (user management)   | No     | Yes |
+| Background backup                            | Yes    | N/A |
+| Virtual scroll                               | Yes    | Yes |
+| OAuth support                                | Yes    | Yes |
+| API Keys                                     | N/A    | Yes |
+| LivePhoto/MotionPhoto backup and playback    | Yes    | Yes |
+| Support 360 degree image display             | No     | Yes |
+| User-defined storage structure               | Yes    | Yes |
+| Public Sharing                               | No     | Yes |
+| Archive and Favorites                        | Yes    | Yes |
+| Global Map                                   | Yes    | Yes |
+| Partner Sharing                              | Yes    | Yes |
+| Facial recognition and clustering            | Yes    | Yes |
+| Memories (x years ago)                       | Yes    | Yes |
+| Offline support                              | Yes    | No  |
+| Read-only gallery                            | Yes    | Yes |
+| Stacked Photos                               | Yes    | Yes |
+
+## المساهمين
+
+<a href="https://github.com/alextran1502/immich/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=immich-app/immich" width="100%"/>
+</a>
+
+## Star History
+
+<a href="https://star-history.com/#immich-app/immich&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=immich-app/immich&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=immich-app/immich&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=immich-app/immich&type=Date" width="100%" />
+ </picture>
+</a>
